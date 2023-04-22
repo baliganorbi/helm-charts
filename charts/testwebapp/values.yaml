@@ -5,13 +5,13 @@
 replicaCount: 1
 
 image:
-  repository: registry.demo.local:5000/testwebapp #CUSTOMIZE
+  repository: registry.demo.local:5000/testwebapp
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "0.1"
 
 imagePullSecrets:
-  - name: dpr-secret #CUSTOMIZE
+  - name: dpr-secret
 nameOverride: ""
 fullnameOverride: ""
 
@@ -48,7 +48,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: testwebapp.local #CUSTOMIZE
+    - host: testwebapp.local
       paths:
         - path: /
           pathType: ImplementationSpecific
