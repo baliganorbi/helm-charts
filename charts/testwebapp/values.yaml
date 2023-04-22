@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: registry.demo.local:5000/testwebapp
+  repository: forchaladtest/testwebapp:0.1
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "0.1"
