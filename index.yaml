@@ -1,0 +1,16 @@
+apiVersion: v1
+entries:
+  testwebapp:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-22T12:29:26.701454744Z"
+    description: A Helm chart for Kubernetes
+    digest: 6ead986eb4ecff403dc2adf589e4faa85c201bd0fc844b09633a4b6bbbb8a7a3
+    maintainers:
+    - name: baliganorbi
+    name: testwebapp
+    type: application
+    urls:
+    - https://github.com/baliganorbi/helm-charts/releases/download/testwebapp-0.1.0/testwebapp-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-04-22T12:29:26.701459144Z"
