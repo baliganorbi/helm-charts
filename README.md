@@ -6,6 +6,7 @@ This is a test Helm repository for hosting my custom Helm charts. The GitHub act
 
 | Chart Name  | Description |
 | ----------- | ----------- |
+| getting-started | Official Helm Getting Started guide |
 | testwebapp | A python test web application.  |
 
 
