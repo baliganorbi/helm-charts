@@ -1,3 +1,5 @@
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/my-helm-charts)](https://artifacthub.io/packages/search?repo=my-helm-charts)
+
 # My Test Helm Repository
 
 This is a test Helm repository for hosting my custom Helm charts. The GitHub action turns this repo into a self-hosted Helm chart repo, using [helm/chart-releaser](https://github.com/helm/chart-releaser) CLI tool. 
