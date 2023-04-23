@@ -3,6 +3,18 @@ entries:
   getting-started:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2023-04-23T20:20:18.050241669Z"
+    description: 'Official Helm Getting Started guide https://helm.sh/docs/chart_template_guide/getting_started/ '
+    digest: a69d3004ce4a78c1fb168c9706a861b79f4535b9408911ca28c7874939e9466b
+    maintainers:
+    - name: baliganorbi
+    name: getting-started
+    type: application
+    urls:
+    - https://github.com/baliganorbi/helm-charts/releases/download/getting-started-0.1.1/getting-started-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2023-04-23T11:40:59.281829213Z"
     description: 'Official Helm Getting Started guide https://helm.sh/docs/chart_template_guide/getting_started/ '
     digest: f08c7d34492de4e38a86a5d5cc5a33328b81268545ef8af8791e760ca06c920a
@@ -38,4 +50,4 @@ entries:
     urls:
     - https://github.com/baliganorbi/helm-charts/releases/download/testwebapp-0.1.0/testwebapp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-23T11:40:59.281839413Z"
+generated: "2023-04-23T20:20:18.050249468Z"
