@@ -7,6 +7,7 @@ This is a test Helm repository for hosting my custom Helm charts. The GitHub act
 | Chart Name  | Description |
 | ----------- | ----------- |
 | getting-started | Official Helm Getting Started guide |
+| simple-gowiki | Go implementation of a simple Wiki |
 | testwebapp | A python test web application.  |
 
 
@@ -31,5 +32,5 @@ helm install my-<chart-name> my-helm-charts/<chart-name>
 To uninstall the chart:
 
 ```
-helm delete my-<chart-name>
+helm uninstall my-<chart-name>
 ```
