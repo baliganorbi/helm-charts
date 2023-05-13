@@ -38,7 +38,7 @@ securityContext: {}
 
 ## Persist data to a persistent volume
 persistence:
-  enabled: true
+  enabled: false
   ## HTML pages Persistent Volume Storage Class
   ## If defined, storageClassName: <storageClass>
   ## If set to "-", storageClassName: "", which disables dynamic provisioning
