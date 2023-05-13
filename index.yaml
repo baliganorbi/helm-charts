@@ -28,6 +28,18 @@ entries:
   simple-gowiki:
   - apiVersion: v2
     appVersion: 1.2.0
+    created: "2023-05-13T19:49:18.528829465Z"
+    description: Go implementation of a simple Wiki
+    digest: e3d3a560580b81f1935f2204bd876c7e3119f975677304a7127eb2a7f3f3f435
+    maintainers:
+    - name: baliganorbi
+    name: simple-gowiki
+    type: application
+    urls:
+    - https://github.com/baliganorbi/helm-charts/releases/download/simple-gowiki-0.1.1/simple-gowiki-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.2.0
     created: "2023-05-13T18:07:43.868815602Z"
     description: Go implementation of a simple Wiki
     digest: 7b831c1270177476b6ac9999c8e4096a31a2d93d526fe280f87ced81ae421df0
@@ -63,4 +75,4 @@ entries:
     urls:
     - https://github.com/baliganorbi/helm-charts/releases/download/testwebapp-0.1.0/testwebapp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-13T18:07:43.868826503Z"
+generated: "2023-05-13T19:49:18.528841265Z"
