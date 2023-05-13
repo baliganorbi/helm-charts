@@ -25,6 +25,19 @@ entries:
     urls:
     - https://github.com/baliganorbi/helm-charts/releases/download/getting-started-0.1.0/getting-started-0.1.0.tgz
     version: 0.1.0
+  simple-gowiki:
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2023-05-13T18:07:43.868815602Z"
+    description: Go implementation of a simple Wiki
+    digest: 7b831c1270177476b6ac9999c8e4096a31a2d93d526fe280f87ced81ae421df0
+    maintainers:
+    - name: baliganorbi
+    name: simple-gowiki
+    type: application
+    urls:
+    - https://github.com/baliganorbi/helm-charts/releases/download/simple-gowiki-0.1.0/simple-gowiki-0.1.0.tgz
+    version: 0.1.0
   testwebapp:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -50,4 +63,4 @@ entries:
     urls:
     - https://github.com/baliganorbi/helm-charts/releases/download/testwebapp-0.1.0/testwebapp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-23T20:20:18.050249468Z"
+generated: "2023-05-13T18:07:43.868826503Z"
