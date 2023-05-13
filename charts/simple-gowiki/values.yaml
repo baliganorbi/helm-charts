@@ -36,7 +36,7 @@ securityContext: {}
   # runAsNonRoot: true
   # runAsUser: 1000
 
-## Persist data to a persistent volume 
+## Persist data to a persistent volume
 persistence:
   enabled: true
   ## HTML pages Persistent Volume Storage Class
@@ -51,11 +51,11 @@ persistence:
   size: 100Mi
   annotations: {}
   volumeConfig:
-    hostPath: 
+    hostPath:
       path: /gowiki-pages
       type: Directory
-    #persistentVolumeClaim:
-    #  claimName: gowiki-pages-pvc
+    # persistentVolumeClaim:
+    #   claimName: gowiki-pages-pvc
 
 service:
   type: ClusterIP
