@@ -37,4 +37,4 @@ Session.vim
 .history
 
 # Chart values override file
-**/values-override.yaml
+**/values-*.yaml

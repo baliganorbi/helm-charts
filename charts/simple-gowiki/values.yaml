@@ -42,6 +42,7 @@ securityContext: {}
 ## Persist data to a persistent volume
 persistence:
   # enabled specifies whether a persistence should be added
+  # If true volumeConfig should define the configuration of the volume.
   enabled: false
   # storageClass is the storageClass of the Persistent Volume for HTML pages
   # If defined, storageClassName: <storageClass>
@@ -54,10 +55,10 @@ persistence:
   # size is the requested size of the storage
   size: 100Mi
   annotations: {}
-  volumeConfig:
-    hostPath:
-      path: /gowiki-pages
-      type: Directory
+  # volumeConfig:
+    # hostPath:
+    #  path: /gowiki-pages
+    #  type: Directory
     # persistentVolumeClaim:
     #   claimName: gowiki-pages-pvc
 
