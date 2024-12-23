@@ -9,7 +9,7 @@ image:
   repository: forchaladtest/mygowiki
   pullPolicy: IfNotPresent
   # tag overrides the image tag whose default is the chart appVersion.
-  tag: "1.2.42"
+  tag: "1.0.1"
 
 imagePullSecrets: []
 # nameOverride overrides the name of the Chart
@@ -38,6 +38,9 @@ securityContext: {}
   # readOnlyRootFilesystem: true
   # runAsNonRoot: true
   # runAsUser: 1000
+
+# PATH for the wiki pages inside the container
+wikiPagesPath: /app/pages
 
 ## Persist data to a persistent volume
 persistence:

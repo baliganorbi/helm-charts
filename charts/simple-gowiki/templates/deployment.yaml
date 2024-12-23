@@ -39,6 +39,9 @@ spec:
           {{- toYaml .Values.securityContext | nindent 10 }}
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
         imagePullPolicy: {{ .Values.image.pullPolicy }}
+        env:
+        - name: GOWIKI_PAGES_PATH
+          value: {{ .Values.wikiPagesPath }}
         ports:
         - name: http
           containerPort: {{ .Values.service.containerPort }}
@@ -51,7 +54,7 @@ spec:
             path: /info
             port: http
         volumeMounts:
-        - mountPath: /app/pages
+        - mountPath: {{ .Values.wikiPagesPath }}
           name: pages-volume
         resources:
           {{- toYaml .Values.resources | nindent 12 }}
